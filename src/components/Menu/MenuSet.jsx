@@ -1,5 +1,5 @@
 import React from 'react';
-import menuSetInfo from './MenuSetInfo';
+import menuSetInfo from './menuSetInfo';
 
 const MenuSet = () => {
   return (
