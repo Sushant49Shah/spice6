@@ -1,0 +1,66 @@
+/* Hide default Swiper navigation buttons text */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+/* Style custom navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+/* Add arrow icons using border method */
+.swiper-button-prev::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  transform: rotate(45deg);
+  margin-left: 5px;
+}
+
+.swiper-button-next::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #000;
+  border-top: 2px solid #000;
+  transform: rotate(45deg);
+  margin-right: 5px;
+}
+
+/* Optional: Add hover effect */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  transform: scale(1.4);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Optional: Add disabled state */
+.swiper-button-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.swiper-slide-active {
+  opacity: 1 !important;
+}
+
+/* Set default opacity for all thumb slides */
+.swiper-slide-thumb {
+  opacity: 0.3 !important;
+}
+
+/* Override opacity only for actually active thumb */
+.swiper-slide-thumb-active {
+  opacity: 1 !important;
+} 
