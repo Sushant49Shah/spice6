@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import BurgerIcon from "./BurgerMenu";
 import "../../App.css";
-import BurgerScene from "./BurgerScene";
 import LogoScene from "./LogoScene";
 import { FaSearch } from "react-icons/fa";
 import { IoReorderThreeOutline } from "react-icons/io5";
@@ -99,7 +97,7 @@ const Navbar = () => {
               {/* Book Now  */}
               <div className="booking-section flex w-1/6">
                 <button className="bg-orange-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-orange-700 transition-colors duration-200">
-                  Book Now
+                今すぐ予約
                 </button>
                 {/* <div className="relative ml-2">
                   <input

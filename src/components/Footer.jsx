@@ -11,10 +11,11 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-white text-xl font-semibold mb-4">Quick Links</h3>
             <nav className="flex flex-col space-y-2">
-              <Link to="/" className="hover:text-yellow-500 transition-colors">Home</Link>
-              <Link to="/menu" className="hover:text-yellow-500 transition-colors">Menu</Link>
-              <Link to="/about" className="hover:text-yellow-500 transition-colors">About</Link>
-              <Link to="/contact" className="hover:text-yellow-500 transition-colors">Contact</Link>
+              <Link to="/" className="hover:text-yellow-500 transition-colors">ホーム</Link>
+              <Link to="/menu" className="hover:text-yellow-500 transition-colors">メニュー</Link>
+              <Link to="/about" className="hover:text-yellow-500 transition-colors">について</Link>
+              <Link to="/contact" className="hover:text-yellow-500 transition-colors">お問い合わせ</Link>
+              <Link to="/gallery" className="hover:text-yellow-500 transition-colors">お問い合わせ</Link>
             </nav>
           </div>
 
@@ -22,10 +23,10 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-white text-xl font-semibold mb-4">Contact Us</h3>
             <div className="space-y-2">
-              <p>123 Restaurant Street</p>
-              <p>New York, NY 10001</p>
-              <p>Phone: (555) 123-4567</p>
-              <p>Email: info@restaurant.com</p>
+              <p>〒420-0044 静岡県静岡市</p>
+              <p>葵区瀬名１丁目１６−７８</p>
+              <p>Phone: 090-6120-4765</p>
+              <p>Email: 6spice6@gmail.com</p>
             </div>
           </div>
 
@@ -33,12 +34,12 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-white text-xl font-semibold mb-4">Hours</h3>
             <div className="space-y-2">
-              <p>Monday - Friday: 11am - 10pm</p>
-              <p>Saturday - Sunday: 10am - 11pm</p>
+              <p>営業時間: 10:00 ~ 18:00</p>
+              <p>定休日: 月曜日・火曜日</p>
             </div>
             
             <div className="mt-6">
-              <h3 className="text-white text-xl font-semibold mb-4">Follow Us</h3>
+              <h3 className="text-white text-xl font-semibold mb-4">フォローする</h3>
               <div className="flex space-x-4">
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#4267B2] transition-colors">
                   <FaFacebook size={24} />

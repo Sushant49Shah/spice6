@@ -28,16 +28,17 @@ const HomeAbout = () => {
           </div>
           
           <p className="text-gray-300 mb-6">
-            Originally, We ran a curry restaurant in a small, hidden gem in Ximending, Aoi Ward. After that, we started selling at events and became a very popular restaurant with long lines! Then, in April 2020, we opened a new takeout-only store in Sena, Aoi Ward!
+          美味しいテイクアウト専門のカレー店です。カレーを中心に、カマジ、ビリヤニ、チャパティ、ナンなど、さまざまなメニューをご用意しております。本場の味を再現するために、経験豊富なシェフがこだわりのスパイスと新鮮な食材を使用して、一つひとつ丁寧に調理しています。ぜひ当店のこだわりの味をお楽しみください！
           </p>
 
-          <div className="flex flex-col items-start mb-4">
-            <span className="text-gray-300"><b>Everyday</b> except Monday and Tuesday</span>
-            <span className="text-white ml-2">10 AM 〜 6 PM</span>
+          <div className="flex flex-col mb-4">
+            <span className="text-gray-300"><b>営業時間:</b> 10:00 ～ 18:00</span>
+            <span className="text-white">定休日: 月曜日・火曜日</span>
           </div>
 
-          <div className="text-[#C4A484] text-3xl font-bold">
-          +054-264-2220
+          <div>
+          <p>お電話</p>
+          <span className='text-[#C4A484] text-3xl font-bold'>090-6120-4765</span>
           </div>
 
         </div>

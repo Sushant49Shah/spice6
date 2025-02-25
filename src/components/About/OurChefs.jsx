@@ -3,12 +3,11 @@ import ChefCard from './ChefCard';
 import chef1 from '../../assets/About/chef1.jpg'
 import chef2 from '../../assets/About/chef2.jpg'
 import chef3 from '../../assets/About/chef3.jpg'
-import chef4 from '../../assets/About/chef4.jpg'
 
 const chefData = [
   {
-    name: 'John Smooth',
-    role: 'Restaurant Owner',
+    name: 'カン カムラン',
+    role: 'レストラン オーナー',
     image: chef1,
     socials: {
       twitter: '#',
@@ -18,8 +17,8 @@ const chefData = [
     }
   },
   {
-    name: 'Rebeca Welson',
-    role: 'Head Chef',
+    name: 'グルン サントシュ',
+    role: 'ヘッド シェフ',
     image: chef2,
     socials: {
       twitter: '#',
@@ -29,20 +28,9 @@ const chefData = [
     }
   },
   {
-    name: 'Kharl Branyt',
-    role: 'Chef',
+    name: 'クリシーナ',
+    role: 'プロフェッショナル シェフ',
     image: chef3,
-    socials: {
-      twitter: '#',
-      facebook: '#',
-      google: '#',
-      instagram: '#'
-    }
-  },
-  {
-    name: 'Luke Simon',
-    role: 'Chef',
-    image: chef4,
     socials: {
       twitter: '#',
       facebook: '#',
@@ -58,11 +46,11 @@ const OurChefs = () => {
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold mb-4">
-            Our Master Chef
+            シェフ紹介
           </h1>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24">
           {chefData.map((chef, index) => (
             <ChefCard key={index} {...chef} />
           ))}

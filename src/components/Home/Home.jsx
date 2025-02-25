@@ -23,10 +23,10 @@ const Home = () => {
           </div>
           <div className="flex flex-col justify-center items-center animate-slide-down duration-700">
             <div className="text-center mb-8">
-              <p className="text-lg sm:text-2xl italic text-gray-300">"The curry is delicious! A take-out only curry restaurant"</p>
+              <p className="text-lg sm:text-2xl italic text-gray-300">「カレーは絶品！テイクアウト専門のカレー店」</p>
             </div>
             <button className="bg-orange-600 relative z-10 sm:hover:bg-orange-700 text-white font-bold py-2 sm:py-3 px-6 sm:px-8 rounded-lg text-lg sm:text-xl transition-colors duration-300">
-              Book a Table
+            今すぐ予約
             </button>
           </div>
         </div>

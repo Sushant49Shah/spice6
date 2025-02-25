@@ -22,18 +22,18 @@ const MessageForm = () => {
 
   return (
     <div className="max-w-7xl mx-auto p-8">
-      <h2 className="text-center mb-12 text-4xl font-semibold">SEND US A MESSAGE</h2>
+      <h2 className="text-center mb-12 text-4xl font-semibold">メッセージを送る</h2>
       
       <form onSubmit={handleSubmit} className="flex flex-col gap-8">
         <div className="flex flex-col gap-8">
           <div className="flex flex-col gap-2">
-            <label className="text-base text-gray-200">Name</label>
+            <label className="text-base text-gray-200">お名前</label>
             <input
               type="text"
               name="name"
               value={formData.name}
               onChange={handleChange}
-              placeholder="Name"
+              placeholder="お名前"
               className="p-4 border border-gray-200 bg-black/30 rounded-lg focus:outline-none focus:border-yellow-100"
             />
           </div>
@@ -41,36 +41,36 @@ const MessageForm = () => {
 
         <div className="flex flex-col md:flex-row gap-8">
           <div className="flex-1 flex flex-col gap-2">
-            <label className="text-base text-gray-200">Email</label>
+            <label className="text-base text-gray-200">メールアドレス</label>
             <input
               type="email"
               name="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder="Email"
+              placeholder="メールアドレス"
               className="p-4 border border-gray-200 bg-black/30 rounded-lg focus:outline-none focus:border-yellow-100"
             />
           </div>
           <div className="flex-1 flex flex-col gap-2">
-            <label className="text-base text-gray-200">Phone</label>
+            <label className="text-base text-gray-200">電話番号</label>
             <input
               type="tel"
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              placeholder="Phone"
+              placeholder="電話番号"
               className="p-4 border border-gray-200 bg-black/30 rounded-lg focus:outline-none focus:border-yellow-100"
             />
           </div>
         </div>
 
         <div className="flex flex-col gap-2">
-          <label className="text-base text-gray-200">Message</label>
+          <label className="text-base text-gray-200">メッセージ</label>
           <textarea
             name="message"
             value={formData.message}
             onChange={handleChange}
-            placeholder="Message"
+            placeholder="メッセージ"
             rows={6}
             className="p-4 border border-gray-200 bg-black/30 rounded-lg resize-y min-h-[150px] focus:outline-none focus:border-yellow-100"
           />
@@ -80,7 +80,7 @@ const MessageForm = () => {
           type="submit"
           className="self-center min-w-[150px] px-8 py-4 bg-black text-white border-2 border-gray-600 rounded-full hover:bg-gray-600 transition-colors"
         >
-          SUBMIT
+          送信
         </button>
       </form>
     </div>
